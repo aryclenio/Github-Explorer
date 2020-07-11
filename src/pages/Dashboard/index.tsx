@@ -52,7 +52,7 @@ const Dashboard: React.FC = () => {
   return (
     <>
       <img src={github} alt="Github Explorer" />
-      <Title>Explore repositórios no Github.</Title>
+      <Title>Explore repositories over Github.</Title>
       {/* Dupla exclamação converte o string em boolean e o segundo verifica o boolean */}
       <Form hasError={!!inputError} onSubmit={handleAddRepository}>
         <input
